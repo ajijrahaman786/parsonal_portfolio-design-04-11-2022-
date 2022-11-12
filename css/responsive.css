@@ -326,6 +326,10 @@
 	.call-details .form-control {
 		width: 90%;
 	}
+	.call-details textarea {
+		margin:0 auto;
+		width:80%;
+	}
 
 	/* 8.footer */
 	.footer-item .social-icon {
