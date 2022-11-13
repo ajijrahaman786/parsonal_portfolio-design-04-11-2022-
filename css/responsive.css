@@ -55,8 +55,11 @@
 	}
 
 	/* 3.Banner */
+	.bg-section {
+		padding: 22px 0px;
+	}
 	.home-img img {
-		transform: translate(0%, 5%);
+		transform: translate(0%, 4%);
 	}
 
 	/* 4.About */
