@@ -58,8 +58,12 @@
 	.bg-section {
 		padding: 22px 0px;
 	}
+	.home-img{
+		margin-top: 5rem;
+	}
 	.home-img img {
-		transform: translate(0%, 5%);
+		margin: 0 auto;
+		display: table;
 	}
 
 	/* 4.About */
@@ -123,8 +127,8 @@
 	}
 
 	.call-details textarea {
-		margin:0 auto;
-		width:100%;
+		margin: 0 auto;
+		width: 100%;
 	}
 
 	/* 8.footer */
@@ -159,8 +163,12 @@
 	}
 
 	/* 3.Banner */
+	.home-img{
+		margin-top: 5rem;
+	}
 	.home-img img {
-		transform: translate(0%, 5%);
+		margin: 0 auto;
+		display: table;
 	}
 
 	/* 4.About */
@@ -232,7 +240,8 @@
 	}
 
 	.call-details textarea {
-		width: 97%;
+		margin: 0 auto;
+		width: 100%;
 	}
 
 	/* 8.footer */
@@ -268,8 +277,12 @@
 	}
 
 	/* 3.Banner */
+	.home-img{
+		margin-top: 5rem;
+	}
 	.home-img img {
-		transform: translate(0%, 5%);
+		margin: 0 auto;
+		display: table;
 	}
 
 	/* 4.About */
@@ -329,10 +342,6 @@
 	.call-details .form-control {
 		width: 90%;
 	}
-	.call-details textarea {
-		margin:0 auto;
-		width:80%;
-	}
 
 	/* 8.footer */
 	.footer-item .social-icon {
@@ -352,10 +361,6 @@
 	/* 3.Banner */
 	.home-section {
 		min-height: 558px;
-	}
-
-	.bg-section {
-		padding: 32px 0px;
 	}
 
 	/* 4.About */
@@ -390,11 +395,7 @@
 	.home-section {
 		min-height: 558px;
 	}
-
-	.bg-section {
-		padding: 32px 0px;
-	}
-
+	
 	/* 4.About */
 	.about-text .nav-pills {
 		width: 56%;
