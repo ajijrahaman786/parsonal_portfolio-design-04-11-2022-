@@ -20,6 +20,7 @@
 	--main-color: #fd4766;
 	--body-color: #0e1525;
 	--dark-blue: #091020;
+	--dark-black: #0c0c18;
 	--text-color: #fff;
 	--text-color-1: #ff5722;
 	--gray-color: #c6c9d8bf;
@@ -103,9 +104,13 @@ h6 {
 p {
 	font-size: 15px;
 	color: var(--gray-color);
-	font-weight: 400;
+	font-weight: 600;
 	line-height: 18px;
 	letter-spacing: 1px;
+}
+p span{
+	color: var(--main-color);
+	font-weight: bolder;
 }
 
 .subtitle {
@@ -178,7 +183,7 @@ p {
 
 /* NAVBAR SCROLLTOP */
 .headerBg {
-	background-color: var(--dark-blue);
+	background-color: var(--dark-black);
 }
 /* header-section ends */
 
@@ -187,28 +192,15 @@ p {
 
 .home-section {
 	width: 100%;
-	height: auto;
-	min-height: 650px;
+    height: auto;
+    min-height: 650px;
+    padding: 120px 0px;
 }
-
-.bg-section {
-	background: rgb(16 16 16 / 90%);
-	height: 100%;
-	width: 100%;
-	padding: 30px 0px;
-}
-
-.home-text {
-	margin-top: 10rem !important;
-}
-
 .home-img img {
 	width: 100%;
 	max-width: 450px;
 	height: auto;
-	transform: translate(0%, 5%);
 	margin: 0 auto;
-	display: table;
 }
 /* home-section ends */
 
@@ -305,12 +297,12 @@ p {
 	cursor: pointer;
 	padding: 10px 15px;
 	border-radius: 4px;
-	transition: transform 0.65s cubic-bezier(0.05, 0.2, 0.1, 1);
+	transition: transform 0.50s cubic-bezier(0.05, 0.2, 0.1, 1);
 }
 
 .service-items .card:hover {
 	box-shadow: 0px, 2px, 70px rgba(253 71 102 / 53);
-	transform: translateY(-5px);
+	transform: translateY(-20px);
 }
 
 .service-items .card .card-body img {
@@ -332,6 +324,9 @@ p {
 	margin-top: 5%;
 }
 
+.row.margin-top {
+    margin-top: 5rem;
+}
 .portfolio-section .card {
 	height: 100%;
 	min-height: 350px;
@@ -391,6 +386,7 @@ p {
 }
 
 .call-details .form-control {
+	width: 94%;
 	transition: all 0.3s ease;
 	background: transparent;
 	font-size: 17px;
@@ -444,7 +440,7 @@ p {
 
 .footer-item img {
 	width: 100%;
-	max-width: 65px;
+	max-width: 80px;
 	height: auto;
 }
 
